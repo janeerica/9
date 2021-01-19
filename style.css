@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+#info{
+    background:linear-gradient(#66ffff 0%,#1aff1a 100%) 
+}
+img { width: 175px; margin-bottom: 50px; border-radius: 50%; }
+#menu{
+    list-style: none;
+    position: absolute;
+    z-index:10;
+    cursor: pointer;
+}
+.link{
+    float: left;
+    padding-bottom:5px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.link:hover{
+    background-color: magenta;
+}
